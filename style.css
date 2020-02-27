@@ -1,0 +1,101 @@
+h1 {
+	letter-spacing: 10px;
+	font-size: 50px;
+}
+h1, h2 {
+	color: #dab8f3;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: lighter;
+}
+h2 {
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 15px 10px;
+}
+body {
+	font-family: 'Playfair Display', serif;
+    color: #D7C378;
+    background-color: #1B1B1B;
+    line-height: 2px;
+    font-size: 16px;
+    font-weight: 400;
+}
+a {
+	text-decoration: none;
+	color: #dab8f3;
+	font-weight: 600;
+}
+a:hover {
+	color: #512b58;
+}
+.img-circle {
+	width: 150px;
+	border-radius: 50%
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+.list-inline i {
+	font-size: 50px
+}
+
+.btn-purple{
+	background-color: #D7C378;
+	color: #512b58;
+	padding:10px 20px;
+	border-radius: 4px;
+}
+.btn-purple:hover{
+	background-color: #512b58;
+	color: #D7C378;
+
+}
+.card-grey{
+	background-color: #626868;
+    padding: 40px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+}
+.container {
+	width: 700px;
+     margin: 40px auto;
+     display: block;
+     line-height: 30px;
+}
+
+@media (max-width: 960px) {
+
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+
+	.container {
+		width: 300px;
+	}
+}
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+#caption-yellow {
+	padding: 15px 10px;
+}
+#daboss {
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
